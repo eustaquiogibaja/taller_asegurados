@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Ruta del archivo CSV intermedio
-archivo_csv = 'clientes_2026.csv'
+archivo_csv = 'clientes.csv'
 
 try:
     # Leer el archivo CSV
@@ -10,7 +10,7 @@ try:
 
     
     # Exportar a Excel
-    archivo_excel = 'clientes_ordenados.xlsx'
+    archivo_excel = 'clientes_certus.xlsx'
     data_ordenada.to_excel(archivo_excel, index=False)
     
     # Regla 3
