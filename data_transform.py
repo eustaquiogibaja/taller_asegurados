@@ -16,6 +16,9 @@ try:
     # Regla 3
     // reemplazar valores ('null','','  ','ninguno') = '0' , de la variable edad.
     
+    # Regla 4
+    // reemplazar valores ('null','','  ','ninguno') = '0' , de la variable tipo seguro.
+    
     print(f"Datos exportados exitosamente a {archivo_excel}")
 except Exception as e:
     print(f"Error al transformar los datos: {e}")
